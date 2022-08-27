@@ -29,6 +29,8 @@ Fajar & Annisa`
         const filename = `../result/single/${guest.instagram}.txt`;
         saveToFile(filename, message);
     }
+
+    console.log('Done!')
     process.exit(0);
 }
 
@@ -63,6 +65,7 @@ Fajar & Annisa`;
         saveToFile(filename, finalMessage);
     })
 
+    console.log('Done!')
     process.exit(0);
 }
 
